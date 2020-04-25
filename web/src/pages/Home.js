@@ -30,9 +30,9 @@ export default function Home(props){
             <div className="pt-5" id="approach"> 
             <Approach text={text.approach} data={text.approach.data}></Approach>
             </div>
-            {/* <div id="tools" className="pt-5">
-                <Tools></Tools>
-            </div>             */}
+            <div id="tools" className="pt-5">
+                <Tools text={text.tools}></Tools>
+            </div>            
             <div id="team" className="pt-5">
             <Team text={text.team} data={data.teamData}></Team>
             </div>

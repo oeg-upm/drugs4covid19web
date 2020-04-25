@@ -543,6 +543,13 @@ const languages= [
       }    },
     ]
     },
+    tools:{
+      title0:'DRUGS4COVID APPS',
+      title1:'D4C Search Engine',
+      text1:'An open web service to identify drugs mentioned in a text and classify them according to the Anatomical Therapeutic Chemical (ATC) classification system and the Concept Unique Identifiers (CUI) described in the Unified Medical Language System (UMLS)',
+      title2:'KG APP NAME',
+      text2:'KG APP DESCRIPTION'
+    },
     team:{
       title0:'¿Quiénes Somos?', 
       title1:'El Equipo', 
@@ -854,6 +861,13 @@ const languages= [
   } 
     ]
     },
+    tools:{
+      title0:'Apps powered by Drugs4Covid',
+      title1:'D4C Search Engine',
+      text1:'An open web service to identify drugs mentioned in a text and classify them according to the Anatomical Therapeutic Chemical (ATC) classification system and the Concept Unique Identifiers (CUI) described in the Unified Medical Language System (UMLS)',
+      title2:'KG APP NAME',
+      text2:'KG APP DESCRIPTION'
+    },
     team:{
       title0:'Who Are We?', 
       title1:'The Team',
@@ -1084,6 +1098,7 @@ const navText = [
     problem:'Problem',
     resources:'Resources',
     approach:'Approach',
+    tools:'Tools',
     team:'Who Are We?',
     lang:'ES'  
   },
@@ -1092,6 +1107,7 @@ const navText = [
     problem:'Problema',
     resources:'Recursos',
     approach:'Nuestro Enfoque',
+    tools:'Herramientas',
     team:'¿Quiénes Somos?',
     lang:'EN'
   }
