@@ -17,10 +17,11 @@ export default function Column(props){
           xField: props.data.xField,
           yField: props.data.yField,
           xAxis:props.data.xAxis,
+          color:'#0A7AA3',
           label: {
             visible: true,
             style: {
-              fill: '#0D0E68',
+              fill: '#0A7AA3',
               fontSize: 12,
               fontWeight: 600,
               opacity: 0.6,

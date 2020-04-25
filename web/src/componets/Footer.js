@@ -15,7 +15,7 @@ export default function Footer(){
                     <Row style={{float:'right'}}>
                         <Col>
                         <Tooltip title="@oeg_upm">
-                        <a href="https://twitter.com/oeg_upm?s=20"><h3 className="blue"><TwitterOutlined/></h3></a>
+                        <a target="_blank" href="https://twitter.com/oeg_upm?s=20"><h3 className="blue"><TwitterOutlined/></h3></a>
                         </Tooltip>
                         </Col>
                     </Row>

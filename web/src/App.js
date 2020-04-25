@@ -10,7 +10,6 @@ import 'jquery/dist/jquery.min.js'
 import $ from 'jquery'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'antd/dist/antd.css'
-
 function App() {
   return (
     <Router>

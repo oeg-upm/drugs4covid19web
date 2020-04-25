@@ -6,7 +6,7 @@ import Problem from '../componets/homecomp/Problem'
 import Resources from '../componets/homecomp/Resources'
 import Approach from '../componets/homecomp/Approach'
 import Team from '../componets/homecomp/Team'
-
+import Tools from '../componets/homecomp/Tools'
 const images = require.context('../assets/', true);
 export default function Home(props){
     let lang = null
@@ -30,6 +30,9 @@ export default function Home(props){
             <div className="pt-5" id="approach"> 
             <Approach text={text.approach} data={text.approach.data}></Approach>
             </div>
+            {/* <div id="tools" className="pt-5">
+                <Tools></Tools>
+            </div>             */}
             <div id="team" className="pt-5">
             <Team text={text.team} data={data.teamData}></Team>
             </div>

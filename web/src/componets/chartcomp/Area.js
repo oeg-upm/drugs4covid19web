@@ -13,6 +13,7 @@ export default function Bar(props){
           text: props.text.subtitle,
         },
         padding: 'auto',
+        color:'#0A7AA3',
         forceFit: true,
         xField:props.data.xField,
         yField: props.data.yField,
