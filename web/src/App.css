@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Oswald:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600&family=Roboto:wght@300;400;500&display=swap');
+
+body{
+  scroll-behavior: smooth!important;
+}
+.title{
+  font-family: 'Archivo', sans-serif!important;
+  font-weight: 600!important;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Archivo', sans-serif!important;
+  font-weight: 600!important;
+}
+.subtitle{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;  
+}
+.oswald{
+  font-family: 'Archivo', sans-serif!important;
+}
+.montserrat{
+  font-family: 'Roboto', sans-serif!important;
+  font-weight: 300!important;
+}
+.blueBg{
+  background-color: #0A7AA3!important;
+}
+.blue {
+  color: #0A7AA3!important;
+}
+.memberLink a {
+  color:#0A7AA3!important;
+}
+.memberLink a:hover {
+  color: rgb(32, 158, 204)!important;
+}
+.memberImg{
+	max-height:'100px';
+	max-width:'100px';
+}
+.whiteBg{
+  background-color: #ffffff!important;
+}
+.greyText{
+  color:#646262;
+}
+.isCurrent{
+  color: red!important;
+}
+.imageCard{
+  display: block!important;
+  max-width:100px!important;
+  max-height:100px!important;
+}
+.btn1{
+  background-color: #0A7AA3!important;
+  color: #ffffff!important;
+  font-family: 'Roboto'!important;
+  font-weight: 500!important;
+  transition: 0.5s;
+}
+.btn1:hover{
+  background-color: rgb(32, 158, 204)!important;
+}
+
+.fullCard{
+  height:'100%'!important;
+  min-height:'100%'!important;
+
+}
+hr.blue {
+  border: 1px solid #0A7AA3;
+}
+/* .header a.active{
+  color:#ffffff!important;
+  text-decoration: underline;
+} */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.fullScreenSection{
+  min-height: 90vh;
+  height: 100%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.g6-tooltip {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #545454;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 8px;
+  box-shadow: rgb(174, 174, 174) 0px 0px 10px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
