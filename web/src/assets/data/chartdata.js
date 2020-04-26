@@ -243,27 +243,27 @@ const languages= [
   {
     info:{
       title1:'DRUGS4COVID',
-      text1:'Queremos crear un catálogo de medicamentos usados para combatir la COVID-19, según la literatura científica, mediante el uso de técnicas de Inteligencia Artificial y Ciencia Ciudadana.',
+      text1:'Estamos creando un catálogo de medicamentos que están siendo utilizados para combatir la COVID-19. Para ello, utilizamos la literatura científica sobre coronavirus existente (más de 60.000 artículos) y utilizamos técnicas de Inteligencia Artificial y Ciencia Ciudadana.',
       videoLink:'https://www.youtube.com/embed/EygR2P_pkyc'
     },
     problems:{
       title0:'Problema',
       title1:'Las reservas de medicamentos en los servicios de farmacia de los hospitales se están agotando',
-      text1:'Con el aumento del número de pacientes afectados por la COVID-19 e ingresados en las Unidades de Cuidados Intensivos en todo el mundo, se ha incrementado la demanda de los medicamentos necesarios para su tratamiento. Los laboratorios han aumentado la producción, y desde la propia Agencia del Medicamento recuerdan que un mismo principio activo puede encontrar en más de un nombre comercial.\nDurante años, se ha generado una amplia cantidad de literatura científica una gran ayuda y, al mismo tiempo, un problema para su exploración.',
+      text1:'Con el aumento del número de pacientes afectados por la COVID-19 e ingresados en las Unidades de Cuidados Intensivos en todo el mundo, se ha incrementado la demanda de los medicamentos necesarios para su tratamiento. A pesar de que muchos laboratorios han aumentado la producción, sigue habiendo problemas de suministro, como se puede comprobar en la Web de la Agencia Española de Medicamentos y Productos Sanitarios.\nDurante años, se ha generado una gran cantidad de literatura científica sobre coronavirus (ahora mismo, más de 60.000 artículos científicos), lo que es de gran ayuda para esta labor, pero a la vez hace difícil la exploración, máxime teniendo en cuenta que un mismo principio activo puede aparecer mencionado con más de un nombre comercial.',
       graph1:{
         title:'Farmacias sin Stock de cierto medicamento',
-        subtitle:'Número de farmacias sin stock de un medicamento específico desde 3-23-2020 hsata 3-29-2020'
+        subtitle:'Número de farmacias sin stock de un medicamento específico desde el 23/03/2020 hasta el 29/03/2020'
       }
     }, 
     resources:{
-      title0:'La solución se convierte en un nuevo problema',
+      title0:'Tanta información se convierte en un nuevo problema',
       title1:'CORD-19',
-      text1:'Esta riqueza de documentación científica supone al mismo tiempo el problema. Si una persona desea conocer la aplicación o uso de un medicamento en el tratamiento de la COVID-19 o identificar las relaciones entre medicamentos descritos en un protocolo de actuación, debe navegar por este gran corpus de documentación donde los medicamentos aparecen mencionados con distintos nombres (principio activo, nombre comercial, grupo terapeútico…). En ocasiones la mención de un medicamento informa de su posible utilización y en otros casos puede tratarse de una frase sin relevancia para este objetivo.',
+      text1:'Por tanto, esta gran riqueza de documentación científica supone al mismo tiempo un problema para encontrar lo que se busca, sobre todo en una situación en la que el tiempo con el que contamos es a veces tan corto.\nSi alguien quiere conocer la aplicación o uso de un medicamento en el tratamiento de la COVID-19 para un grupo específico de pacientes, o identificar las relaciones entre medicamentos descritos en un protocolo de actuación, debe navegar por este gran corpus de documentación donde los medicamentos aparecen mencionados con distintos nombres (principio activo, nombre comercial, grupo terapeútico, etc.). Además, en ocasiones la mención de un medicamento en un artículo científico nos proporciona información muy relevante sobre su posible utilización, pero en otros casos puede tratarse de una frase sin relevancia para nuestro objetivo, que es el de salvar vidas.',
       graph1:{
         title:'Artículos por año',
-        subtitle:'Numero de publicaciones desde 1976 hasta febrero de 2020',
+        subtitle:'Número de publicaciones desde 1976 hasta febrero de 2020',
       },
-      graphtext1:'Muchas Fuentes entre las que consultar.',
+      graphtext1:'Muchas fuentes entre las que consultar.',
       graphtext2:'La nomenclatura de los medicamentos varía según el contexto.',
       title2:'Algunos datos:',
     },
@@ -274,16 +274,16 @@ const languages= [
         {
             step:1,
             title:'Procesar', 
-            content:'Procesar e indexar el corpus de artículos, y todas las frases.',
+            content:'Procesar e indexar el corpus de publicaciones científicas, y todos sus párrafos.',
             source:'approach/file_searching.svg',
             info:{
               motivation:{
                 title:'Motivación',
-                text:'Facilitar el procesamiento automático de las publicaciones científicas disponibles en el corpus CORD-19.'
+                text:'En este paso de nuestra metodología necesitamos facilitar el procesamiento automático de todas las publicaciones científicas disponibles en el corpus seleccionado (en nuestro caso, el CORD-19)'
               },
               problems:{
                 title:'Problemas',
-                text:'El corpus se distribuye en varias colecciones de documentos comprimidas (formato GZ) y un archivo con metainformación (formato CSV).'
+                text:'Afortunadamente, la información sobre todas las publicaciones de este corpus está disponible de manera abierta y sencilla, a través de varias colecciones de documentos comprimidas (formato GZ) y con un archivo con metainformación (formato CSV), que debemos tratar adecuadamente.'
               },
               hypothesis:{
                 title:'Hipótesis',
@@ -555,47 +555,47 @@ const languages= [
   {
     info:{
       title1:'DRUGS4COVID',
-      text1:'We want to create a catalog of medicines used to combat COVID-19, according to scientific literature, through the use of Artificial Intelligence and Citizen Science techniques.',
+      text1:'We are creating a catalogue of medicines that are being used to combat COVID-19. Using Artificial Intelligence techniques and Citizen Science, we exploit the existing scientific literature about coronavirus (more than 60,000 papers)',
       videoLink:'https://www.youtube.com/embed/EygR2P_pkyc'
     },
     problems:{
       title0:'Problem',
       title1:'Drugs in hospital pharmacy services are running low',
-      text1:'With the increase in the number of patients affected by COVID-19 and admitted to Intensive Care Units throughout the world, the demand for the medicines necessary for their treatment has increased. Laboratories have increased production, and the Drug Agency itself recalls that the same active ingredient can be found in more than one trade name.\nFor years, a large amount of scientific literature has been generated, a great help and a problem for its exploration too.',
+      text1:'With the increase in the number of patients affected by COVID-19 and admitted to Intensive Care Units throughout the world, the demand for the medicines necessary for their treatment has increased. Laboratories have increased production. However, Drug Agencies worldwide confirm that there are problems related to the supply of some specific medicines.\nFor years, a large amount of scientific literature about coronavirus (currently, more than 60,000 scientific papers) has been generated. This is a great help for eveybody fighting against COVID-19, but at the same time such a large corpus is difficult to explore. Furthermore, the same active ingredient may be found in more than one trade name, what makes exploration of this corpus even more difficult for those who have to make quick informed decisions related to medicine use and supplies.',
       graph1:{
         title:'Pharmacies without stock of a medicine',
-        subtitle:'Number of pharmacies without stock of a specific medicine from 2020-03-23 to 2020-03-29'
+        subtitle:'Number of pharmacies in Spain without stock of a specific medicine from 2020-03-23 to 2020-03-29'
       }
-    }, 
+    },
     resources:{
-      title0:'The solution becomes the problem',
+      title0:'So much information becomes problematic',
       title1:'CORD-19',
-      text1:'This scientific documentation is at the same time the problem. If a person wants to know the application or use of a drug in the treatment of COVID-19 or identify the relationships between drugs described in a protocol of action, they should navigate this large body of documentation where the drugs are mentioned with different names (active principle, trade name, therapeutic group... ). Sometimes the mention of a medicine informs about its possible use and in other cases it may be a phrase without relevance to this objective.',
+                  text1:'Therefore, the large amount of scientific documentation available becomes a problem on itself, especially in situations when decisions have to be made quickly.\nIf a person wants to know the application or use of a drug in the treatment of COVID-19 for a specific group of patients, or identify the relationships between drugs described in a protocol of action, they should navigate this large body of documentation where drugs are often mentioned with different names (active principle, trade name, therapeutic group, etc.). Furthermore, the mention of a medicine in a scientific paper may inform about its possible use, but sometimes it may be also inside a sentence or paragraph that has no relevance to our objective of saving lives.',
       title2:'Some Data:',
       graph1:{
         title:'Articles per year',
         subtitle:'Number of published articles from 1970 to February 2020.',
       },
-      graphtext1:'Many sources to consult.',
+      graphtext1:'Too many sources to consult.',
       graphtext2:'The name of the medicine depends on the context.',            
     },
     approach:{
       title0:'Our Approach',
-      text1:'How it works?',
+      text1:'How does it work?',
       data:[
         {
             step:1,
             title:'Process', 
-            content:'Process and index the article corpus, and all the sentences.',
+            content:'Process and index the corpus of scientific papers, and all of its paragraphs.',
             source:'approach/file_searching.svg', 
             info:{
               motivation:{
                 title:'Motivation',
-                text:'Ease the automatic processing of scientific publications available in CORD-19 corpus.'
+                text:'In this step of our methodology, we want to ease the automatic processing of all the scientific publications available in the corpus (in our case, CORD-19).'
               },
               problems:{
                 title:'Problems',
-                text:'The corpus gathers several compressed collections of documents (GZ format) and a metadata file (CSV format).'
+                text:'Fortunately, the information about all the publications in this corpus is available openly, through several compressed collections of documents (GZ format) and a metadata file (CSV format), which we need to process adequately.'
               },
               hypothesis:{
                 title:'Hypothesis',
