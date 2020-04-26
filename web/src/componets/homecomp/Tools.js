@@ -53,7 +53,7 @@ export default class Tools extends React.Component{
                     </Row>
                     <Row>
                         <Col>
-                            <Button size="large">Start to search <SearchOutlined/></Button>
+                            <Button href={this.props.text.link1} size="large">Start to search <SearchOutlined/></Button>
                         </Col>
                     </Row>
                 </div>
@@ -68,10 +68,25 @@ export default class Tools extends React.Component{
                     </Row>
                     <Row>
                         <Col>
-                            <Button size="large">Start to search <SearchOutlined/></Button>
+                            <Button href={this.props.text.link2} size="large">Start to Query</Button>
                         </Col>
                     </Row>
-                </div>                
+                </div>
+                <div className="mt-3">
+                    <Title level={4}>{this.props.text.title3}</Title>
+                    <Row>
+                        <Col span={24}>
+                            <Paragraph className="text-justify">
+                                {this.props.text.text3}
+                            </Paragraph>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Button href={this.props.text.link3} size="large">Start to Query</Button>
+                        </Col>
+                    </Row>
+                </div>                  
             </Col>
         </Row>
         <Divider></Divider>

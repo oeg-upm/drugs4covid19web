@@ -1,6 +1,7 @@
 import React from 'react'
-import {Row, Col, Typography, Divider} from 'antd'
 import Slides from '../Slides'
+
+import {Row, Col, Typography, Divider} from 'antd'
 const {Title} = Typography
 const  {Text} = Typography
 const {Paragraph} = Typography

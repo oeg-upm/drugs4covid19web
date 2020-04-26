@@ -8,12 +8,12 @@ import {Menu, Button, Tooltip, Affix, Anchor, Row, Col} from 'antd'
 import {Link} from 'react-scroll'
 import {MenuOutlined} from '@ant-design/icons'
 
-const text = document.location.href.toString().slice(-2) !== 'EN' ? data.navText[1]:data.navText[0]
+const text = document.location.href.toString().slice(-2) !== 'ES' ? data.navText[0]:data.navText[1]
 export default class Header extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            text:document.location.href.toString().slice(-2) !== 'EN' ? data.navText[1]:data.navText[0],
+            text:document.location.href.toString().slice(-2) !== 'ES' ? data.navText[0]:data.navText[1],
             collapsed:true,
             activeKey:'introduction'
         }
@@ -26,8 +26,6 @@ export default class Header extends React.Component{
 
     }
     handleSetActive(key){
-        console.log("ESSTAMOS EN:")
-        console.log(key)
         this.setState({activeKey:key})
     }    
     render(){
@@ -40,10 +38,10 @@ export default class Header extends React.Component{
     return(
         <Affix>
         <Row gutter={[16,16]} style={{background:'#fff'}}>
-            <Col md={10}>
+            <Col md={8}>
             <img src={logo} className="img-fluid d-inline-block align-top" alt="" style={{ height: 50 }}/>
             </Col>
-            <Col xs={2} md={14}>
+            <Col xs={2} md={16}>
             <Menu selectedKeys={[this.state.activeKey]} mode="horizontal" style={{ borderBottom: 'none'}} overflowedIndicator={<MenuOutlined />}>  
             {
                 menuLinks.map((key) => (

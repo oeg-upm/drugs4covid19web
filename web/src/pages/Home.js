@@ -7,6 +7,7 @@ import Resources from '../componets/homecomp/Resources'
 import Approach from '../componets/homecomp/Approach'
 import Team from '../componets/homecomp/Team'
 import Tools from '../componets/homecomp/Tools'
+
 const images = require.context('../assets/', true);
 export default function Home(props){
     let lang = null
@@ -15,7 +16,7 @@ export default function Home(props){
     }catch(err){
         console.log(err)
     }
-    let text = lang === 'EN'? data.languages[1]:data.languages[0]
+    let text = lang === 'ES'? data.languages[0]:data.languages[1]
     return(
         <Layout>
             <div className="" id="introduction"> 
@@ -32,7 +33,8 @@ export default function Home(props){
             </div>
             <div id="tools" className="pt-5">
                 <Tools text={text.tools}></Tools>
-            </div>            
+            </div>
+       
             <div id="team" className="pt-5">
             <Team text={text.team} data={data.teamData}></Team>
             </div>

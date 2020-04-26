@@ -244,7 +244,7 @@ const languages= [
     info:{
       title1:'DRUGS4COVID',
       text1:'Estamos creando un catálogo de medicamentos que están siendo utilizados para combatir la COVID-19. Para ello, utilizamos la literatura científica sobre coronavirus existente (más de 60.000 artículos) y utilizamos técnicas de Inteligencia Artificial y Ciencia Ciudadana.',
-      videoLink:'https://www.youtube.com/embed/EygR2P_pkyc'
+      videoLink:'https://www.youtube.com/embed/uaaFqRV-NKU'
     },
     problems:{
       title0:'Problema',
@@ -544,11 +544,18 @@ const languages= [
     ]
     },
     tools:{
-      title0:'DRUGS4COVID APPS',
+      title0:'Apps powered by Drugs4Covid',
       title1:'D4C Search Engine',
-      text1:'An open web service to identify drugs mentioned in a text and classify them according to the Anatomical Therapeutic Chemical (ATC) classification system and the Concept Unique Identifiers (CUI) described in the Unified Medical Language System (UMLS)',
-      title2:'KG APP NAME',
-      text2:'KG APP DESCRIPTION'
+      text1:'An open web service to exploit the existing scientific literature about coronavirus (more than 60,000 papers) identifying drugs, diseases and articles and displaying their relations inside the corpus. You can search by ATC code, Generic Name, Disease Name or MESH code.',
+      title2:'D4C Knowled Graph Interface',
+      text2:'A Knowledge Graph interface to run your own queries or run some examples of questions doctors and researchers might find useful.',
+      title3:'D4C Query Builder',
+      text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
+      link1:'https://bio-nlp-dashboard.netlify.app/',
+      link2:'https://bio-nlp-dashboard.netlify.app/KG',
+      link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
+
+
     },
     team:{
       title0:'¿Quiénes Somos?', 
@@ -563,7 +570,7 @@ const languages= [
     info:{
       title1:'DRUGS4COVID',
       text1:'We are creating a catalogue of medicines that are being used to combat COVID-19. Using Artificial Intelligence techniques and Citizen Science, we exploit the existing scientific literature about coronavirus (more than 60,000 papers)',
-      videoLink:'https://www.youtube.com/embed/EygR2P_pkyc'
+      videoLink:'https://www.youtube.com/embed/uaaFqRV-NKU'
     },
     problems:{
       title0:'Problem',
@@ -864,9 +871,16 @@ const languages= [
     tools:{
       title0:'Apps powered by Drugs4Covid',
       title1:'D4C Search Engine',
-      text1:'An open web service to identify drugs mentioned in a text and classify them according to the Anatomical Therapeutic Chemical (ATC) classification system and the Concept Unique Identifiers (CUI) described in the Unified Medical Language System (UMLS)',
-      title2:'KG APP NAME',
-      text2:'KG APP DESCRIPTION'
+      text1:'An open web service to exploit the existing scientific literature about coronavirus (more than 60,000 papers) identifying drugs, diseases and articles and displaying their relations inside the corpus. You can search by ATC code, Generic Name, Disease Name or MESH code.',
+      title2:'D4C Knowled Graph Interface',
+      text2:'A Knowledge Graph interface to run your own queries or run some examples of questions doctors and researchers might find useful.',
+      title3:'D4C Query Builder',
+      text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
+      link1:'https://bio-nlp-dashboard.netlify.app/',
+      link2:'https://bio-nlp-dashboard.netlify.app/KG',
+      link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
+
+
     },
     team:{
       title0:'Who Are We?', 
