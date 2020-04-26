@@ -35,6 +35,10 @@ h1,h2,h3,h4,h5,h6{
 .memberLink a:hover {
   color: rgb(32, 158, 204)!important;
 }
+.slick-dots li button{
+  background-color:#0A7AA3!important;
+}
+
 .memberImg{
 	max-height:'100px';
 	max-width:'100px';

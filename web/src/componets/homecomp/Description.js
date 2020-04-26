@@ -1,4 +1,6 @@
 import React from 'react'
+import Slides from '../Slides'
+
 import {Row, Col, Typography, Divider} from 'antd'
 const {Title} = Typography
 const  {Text} = Typography
@@ -18,7 +20,7 @@ export default function Description(props){
                 </div>                
             </Col>
         </Row>
-
+        <Slides></Slides>
         <Divider></Divider>
         </section>
     )
