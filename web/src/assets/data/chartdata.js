@@ -552,7 +552,7 @@ const languages= [
       title3:'D4C Query Builder',
       text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
       link1:'https://bio-nlp-dashboard.netlify.app/',
-      link2:'https://bio-nlp-dashboard.netlify.app/KG',
+      link2:'https://kg.drugs4covid.oeg-upm.net/',
       link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
 
 
@@ -877,7 +877,7 @@ const languages= [
       title3:'D4C Query Builder',
       text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
       link1:'https://bio-nlp-dashboard.netlify.app/',
-      link2:'https://bio-nlp-dashboard.netlify.app/KG',
+      link2:'https://kg.drugs4covid.oeg-upm.net/',
       link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
 
 
