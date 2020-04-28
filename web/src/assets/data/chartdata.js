@@ -544,13 +544,13 @@ const languages= [
     ]
     },
     tools:{
-      title0:'Apps powered by Drugs4Covid',
+      title0:'Apps desarrolladas por Drugs4Covid',
       title1:'D4C Search Engine',
-      text1:'An open web service to exploit the existing scientific literature about coronavirus (more than 60,000 papers) identifying drugs, diseases and articles and displaying their relations inside the corpus. You can search by ATC code, Generic Name, Disease Name or MESH code.',
-      title2:'D4C Knowled Graph Interface',
-      text2:'A Knowledge Graph interface to run your own queries or run some examples of questions doctors and researchers might find useful.',
+      text1:'Un servicio web abierto, donde explotar la literatura científica sobre el Coronavirus (más de 60.000 artículos). Identificando medicamentos, enfermedades y artículos y mostrando las relaciones que existen entre ellos dentro del corpus. Puedes buscar por código ATC, código MESH, nombre genérico o nombre de enfermedad.',
+      title2:'D4C Knowledge Graph Interface',
+      text2:'Una interfaz web de nuestro Grafo de Conocimiento, donde puedes crear tus propias consultas o ejecutar algunas de las consultas que hemos formulado con la ayuda de doctores e investigadores que querían obtener información sobre del corpus.',
       title3:'D4C Query Builder',
-      text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
+      text3:'Una web donde aprender como interactuar con la API de Drugs4Covid para hacer tus propios experimentos.',
       link1:'https://bio-nlp-dashboard.netlify.app/',
       link2:'https://kg.drugs4covid.oeg-upm.net/',
       link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
@@ -872,7 +872,7 @@ const languages= [
       title0:'Apps powered by Drugs4Covid',
       title1:'D4C Search Engine',
       text1:'An open web service to exploit the existing scientific literature about coronavirus (more than 60,000 papers) identifying drugs, diseases and articles and displaying their relations inside the corpus. You can search by ATC code, Generic Name, Disease Name or MESH code.',
-      title2:'D4C Knowled Graph Interface',
+      title2:'D4C Knowledge Graph Interface',
       text2:'A Knowledge Graph interface to run your own queries or run some examples of questions doctors and researchers might find useful.',
       title3:'D4C Query Builder',
       text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
