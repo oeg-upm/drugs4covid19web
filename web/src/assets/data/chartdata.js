@@ -551,9 +551,9 @@ const languages= [
       text2:'Una interfaz web de nuestro Grafo de Conocimiento, donde puedes crear tus propias consultas o ejecutar algunas de las consultas que hemos formulado con la ayuda de doctores e investigadores que querían obtener información sobre del corpus.',
       title3:'D4C Query Builder',
       text3:'Una web donde aprender como interactuar con la API de Drugs4Covid para hacer tus propios experimentos.',
-      link1:'https://bio-nlp-dashboard.netlify.app/',
+      link1:'https://search.drugs4covid.oeg-upm.net/',
       link2:'https://kg.drugs4covid.oeg-upm.net/',
-      link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
+      link3:'https://search.drugs4covid.oeg-upm.net/customsearch'
 
 
     },
@@ -876,9 +876,9 @@ const languages= [
       text2:'A Knowledge Graph interface to run your own queries or run some examples of questions doctors and researchers might find useful.',
       title3:'D4C Query Builder',
       text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
-      link1:'https://bio-nlp-dashboard.netlify.app/',
+      link1:'https://search.drugs4covid.oeg-upm.net/',
       link2:'https://kg.drugs4covid.oeg-upm.net/',
-      link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
+      link3:'https://search.drugs4covid.oeg-upm.net/customsearch'
 
 
     },
