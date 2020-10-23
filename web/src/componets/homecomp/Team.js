@@ -24,7 +24,7 @@ export default function Approach(props){
             <MemberList team={props.data}></MemberList>        
             </Col>
         </Row>
-        <Row>
+        {/* <Row>
             <Col>
             <Title level={4}>{props.text.title2}</Title>
             </Col>
@@ -39,7 +39,7 @@ export default function Approach(props){
             <Col xs={24} md={8} className="text-center">
                 <img src={images('./' + props.text.logo3)} alt="" className="img-fluid"/>
             </Col>                                                        
-        </Row>
+        </Row> */}
         <Divider></Divider>
         </>        
     )

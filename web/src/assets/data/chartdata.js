@@ -544,28 +544,33 @@ const languages= [
     ]
     },
     tools:{
-      title0:'Apps powered by Drugs4Covid',
+      title0:'Apps desarrolladas por Drugs4Covid',
       title1:'D4C Search Engine',
-      text1:'An open web service to exploit the existing scientific literature about coronavirus (more than 60,000 papers) identifying drugs, diseases and articles and displaying their relations inside the corpus. You can search by ATC code, Generic Name, Disease Name or MESH code.',
-      title2:'D4C Knowled Graph Interface',
-      text2:'A Knowledge Graph interface to run your own queries or run some examples of questions doctors and researchers might find useful.',
+      text1:'Un servicio web abierto, donde explotar la literatura científica sobre el Coronavirus (más de 60.000 artículos). Identificando medicamentos, enfermedades y artículos y mostrando las relaciones que existen entre ellos dentro del corpus. Puedes buscar por código ATC, código MESH, nombre genérico o nombre de enfermedad.',
+      title2:'D4C Knowledge Graph Interface',
+      text2:'Una interfaz web de nuestro Grafo de Conocimiento, donde puedes crear tus propias consultas o ejecutar algunas de las consultas que hemos formulado con la ayuda de doctores e investigadores que querían obtener información sobre del corpus.',
       title3:'D4C Query Builder',
-      text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
-      link1:'https://bio-nlp-dashboard.netlify.app/',
-      link2:'https://bio-nlp-dashboard.netlify.app/KG',
-      link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
+      text3:'Una web donde aprender como interactuar con la API de Drugs4Covid para hacer tus propios experimentos.',
+      link1:'https://search.drugs4covid.oeg-upm.net/',
+      link2:'https://kg.drugs4covid.oeg-upm.net/',
+      link3:'https://search.drugs4covid.oeg-upm.net/customsearch'
 
 
     },
     team:{
       title0:'¿Quiénes Somos?', 
-      title1:'El Equipo', 
-      title2:'Con la ayuda de:',
-      logo1:'logos/oeg.jpg', 
-      logo2:'logos/upm.png',
-      logo3:'logos/FacInformatica.jpg'
+      title1:'El Equipo'
+    },  
+    acknowledgments:{
+      logo1:'logos/bbva.png',
+      title1:"With the financial support of",
+      text1:'Drugs4Covid++  - AYUDAS FUNDACIÓN BBVA A EQUIPOS DE INVESTIGACIÓN CIENTÍFICA SARS-CoV-2 y COVID-19',
+      logo2:'logos/oeg.jpg', 
+      logo3:'logos/upm.png',
+      logo4:'logos/FacInformatica.jpg'      
     }
-  },
+},
+
   {
     info:{
       title1:'DRUGS4COVID',
@@ -872,23 +877,27 @@ const languages= [
       title0:'Apps powered by Drugs4Covid',
       title1:'D4C Search Engine',
       text1:'An open web service to exploit the existing scientific literature about coronavirus (more than 60,000 papers) identifying drugs, diseases and articles and displaying their relations inside the corpus. You can search by ATC code, Generic Name, Disease Name or MESH code.',
-      title2:'D4C Knowled Graph Interface',
+      title2:'D4C Knowledge Graph Interface',
       text2:'A Knowledge Graph interface to run your own queries or run some examples of questions doctors and researchers might find useful.',
       title3:'D4C Query Builder',
       text3:'A simple interface to learn how to use the D4C Api and start to run your own experiments.',
-      link1:'https://bio-nlp-dashboard.netlify.app/',
-      link2:'https://bio-nlp-dashboard.netlify.app/KG',
-      link3:'https://bio-nlp-dashboard.netlify.app/customsearch'
+      link1:'https://search.drugs4covid.oeg-upm.net/',
+      link2:'https://kg.drugs4covid.oeg-upm.net/',
+      link3:'https://search.drugs4covid.oeg-upm.net/customsearch'
 
 
     },
     team:{
       title0:'Who Are We?', 
       title1:'The Team',
-      title2:'With the help of:',
-      logo1:'logos/oeg.jpg', 
-      logo2:'logos/upm.png',
-      logo3:'logos/FacInformatica.jpg'
+    }, 
+    acknowledgments:{
+      logo1:'logos/bbva.png',
+      title1:"With the financial support of",
+      text1:'Drugs4Covid++  - AYUDAS FUNDACIÓN BBVA A EQUIPOS DE INVESTIGACIÓN CIENTÍFICA SARS-CoV-2 y COVID-19',
+      logo2:'logos/oeg.jpg', 
+      logo3:'logos/upm.png',
+      logo4:'logos/FacInformatica.jpg'      
     }
   }
 ]

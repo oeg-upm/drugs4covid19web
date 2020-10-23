@@ -6,7 +6,7 @@ import logoMin from '../assets/logo.min.svg'
 import {MdMenu} from 'react-icons/md'
 import {Menu, Button, Tooltip, Affix, Anchor, Row, Col} from 'antd'
 import {Link} from 'react-scroll'
-import {MenuOutlined} from '@ant-design/icons'
+import {MenuOutlined, TwitterOutlined} from '@ant-design/icons'
 
 const text = document.location.href.toString().slice(-2) !== 'ES' ? data.navText[0]:data.navText[1]
 export default class Header extends React.Component{
@@ -65,7 +65,10 @@ export default class Header extends React.Component{
                     {this.state.text.lang}
                 </Button>
                 </Tooltip>
-            </Menu.Item>              
+            </Menu.Item>    
+            <Menu.Item> 
+                        <a target="_blank" href="https://twitter.com/oeg_upm?s=20"><h3 className="blue"><TwitterOutlined/></h3></a>
+            </Menu.Item>
             </Menu>
 
             </Col>

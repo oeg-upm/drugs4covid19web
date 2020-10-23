@@ -8,7 +8,7 @@ export default function Layout(props){
             <Col xs={22} md={20}  xl={18}>
                 <Header></Header>
                 {props.children}
-                <Footer></Footer>
+                <Footer text={props.text}></Footer>
             </Col>
         </Row>
     )
