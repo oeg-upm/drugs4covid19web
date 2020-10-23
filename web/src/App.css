@@ -131,3 +131,7 @@ hr.blue {
     transform: rotate(360deg);
   }
 }
+.smallImage{
+  width: 60px!important;
+  height: auto;
+}

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bfe8f7e.chunk.css",
-    "main.js": "/static/js/main.aeff480e.chunk.js",
-    "main.js.map": "/static/js/main.aeff480e.chunk.js.map",
+    "main.css": "/static/css/main.a127ef42.chunk.css",
+    "main.js": "/static/js/main.9b15b049.chunk.js",
+    "main.js.map": "/static/js/main.9b15b049.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.314b3586.js",
     "runtime-main.js.map": "/static/js/runtime-main.314b3586.js.map",
-    "static/css/2.8df3dfdf.chunk.css": "/static/css/2.8df3dfdf.chunk.css",
-    "static/js/2.3bf9b14d.chunk.js": "/static/js/2.3bf9b14d.chunk.js",
-    "static/js/2.3bf9b14d.chunk.js.map": "/static/js/2.3bf9b14d.chunk.js.map",
+    "static/css/2.28481257.chunk.css": "/static/css/2.28481257.chunk.css",
+    "static/js/2.8863f777.chunk.js": "/static/js/2.8863f777.chunk.js",
+    "static/js/2.8863f777.chunk.js.map": "/static/js/2.8863f777.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d89cf33362ada6b1c401a9f018c8ff98.js": "/precache-manifest.d89cf33362ada6b1c401a9f018c8ff98.js",
+    "precache-manifest.96d44e737afa8bc7a053a5aeac1f3610.js": "/precache-manifest.96d44e737afa8bc7a053a5aeac1f3610.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.8df3dfdf.chunk.css.map": "/static/css/2.8df3dfdf.chunk.css.map",
-    "static/css/main.6bfe8f7e.chunk.css.map": "/static/css/main.6bfe8f7e.chunk.css.map",
-    "static/js/2.3bf9b14d.chunk.js.LICENSE.txt": "/static/js/2.3bf9b14d.chunk.js.LICENSE.txt",
+    "static/css/2.28481257.chunk.css.map": "/static/css/2.28481257.chunk.css.map",
+    "static/css/main.a127ef42.chunk.css.map": "/static/css/main.a127ef42.chunk.css.map",
+    "static/js/2.8863f777.chunk.js.LICENSE.txt": "/static/js/2.8863f777.chunk.js.LICENSE.txt",
     "static/media/AlbaFernandez.png": "/static/media/AlbaFernandez.e7eaf598.png",
     "static/media/AnaIglesiasMolina.jpg": "/static/media/AnaIglesiasMolina.2926a2ea.jpg",
     "static/media/BeatrizLópezCenteno.jpg": "/static/media/BeatrizLópezCenteno.e57035b2.jpg",
@@ -57,6 +57,7 @@
     "static/media/SocorroBernardos.png": "/static/media/SocorroBernardos.847bee12.png",
     "static/media/VirginiadePablo.png": "/static/media/VirginiadePablo.5ba516bb.png",
     "static/media/annotation.svg": "/static/media/annotation.2c34bd7f.svg",
+    "static/media/bbva.svg": "/static/media/bbva.fe09b448.svg",
     "static/media/collecting.svg": "/static/media/collecting.a457acbb.svg",
     "static/media/collecting.new.svg": "/static/media/collecting.new.9c5b1003.svg",
     "static/media/detailed_analysis.svg": "/static/media/detailed_analysis.36330695.svg",
@@ -93,9 +94,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.314b3586.js",
-    "static/css/2.8df3dfdf.chunk.css",
-    "static/js/2.3bf9b14d.chunk.js",
-    "static/css/main.6bfe8f7e.chunk.css",
-    "static/js/main.aeff480e.chunk.js"
+    "static/css/2.28481257.chunk.css",
+    "static/js/2.8863f777.chunk.js",
+    "static/css/main.a127ef42.chunk.css",
+    "static/js/main.9b15b049.chunk.js"
   ]
 }

@@ -559,13 +559,18 @@ const languages= [
     },
     team:{
       title0:'¿Quiénes Somos?', 
-      title1:'El Equipo', 
-      title2:'Con la ayuda de:',
-      logo1:'logos/oeg.jpg', 
-      logo2:'logos/upm.png',
-      logo3:'logos/FacInformatica.jpg'
+      title1:'El Equipo'
+    },  
+    acknowledgments:{
+      logo1:'logos/bbva.png',
+      title1:"With the financial support of",
+      text1:'Drugs4Covid++  - AYUDAS FUNDACIÓN BBVA A EQUIPOS DE INVESTIGACIÓN CIENTÍFICA SARS-CoV-2 y COVID-19',
+      logo2:'logos/oeg.jpg', 
+      logo3:'logos/upm.png',
+      logo4:'logos/FacInformatica.jpg'      
     }
-  },
+},
+
   {
     info:{
       title1:'DRUGS4COVID',
@@ -885,10 +890,14 @@ const languages= [
     team:{
       title0:'Who Are We?', 
       title1:'The Team',
-      title2:'With the help of:',
-      logo1:'logos/oeg.jpg', 
-      logo2:'logos/upm.png',
-      logo3:'logos/FacInformatica.jpg'
+    }, 
+    acknowledgments:{
+      logo1:'logos/bbva.png',
+      title1:"With the financial support of",
+      text1:'Drugs4Covid++  - AYUDAS FUNDACIÓN BBVA A EQUIPOS DE INVESTIGACIÓN CIENTÍFICA SARS-CoV-2 y COVID-19',
+      logo2:'logos/oeg.jpg', 
+      logo3:'logos/upm.png',
+      logo4:'logos/FacInformatica.jpg'      
     }
   }
 ]

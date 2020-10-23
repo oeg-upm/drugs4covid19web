@@ -18,7 +18,7 @@ export default function Home(props){
     }
     let text = lang === 'ES'? data.languages[0]:data.languages[1]
     return(
-        <Layout>
+        <Layout text={text.acknowledgments}>
             <div className="" id="introduction"> 
             <Description text={text.info}></Description>
             </div>
